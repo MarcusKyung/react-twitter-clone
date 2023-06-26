@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Profile from "./Profile";
 import Textbox from "./Textbox";
+import TweetInput from "./TweetInput";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Profile />
       <Textbox />
+      <TweetInput />
     </React.Fragment>
   );
 }
