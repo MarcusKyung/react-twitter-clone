@@ -9,7 +9,7 @@ function Profile() {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={background} alt="background"/>
-      <Card.ImgOverlay style={{ position: 'absolute', top: '75px', left: '15px' }}>
+      <Card.ImgOverlay style={{ position: 'absolute', top: '55px', left: '10px' }}>
         <img width="80px" src={profileImage} alt="profile"/>
       </Card.ImgOverlay>
       
