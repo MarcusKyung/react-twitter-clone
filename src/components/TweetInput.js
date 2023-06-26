@@ -7,10 +7,10 @@ import tweetInputPhoto from './../img/tweetInputPhoto.png';
 function TweetInput() {
   return (
     <React.Fragment>
-      <Card style={{ width: '18rem' }}>
-        <Card.Body>
+      <Card >
+        <Card.Body style={{backgroundColor: '#8ccff0'}}>
           <Form className="d-flex">
-            <img width="15%" src={tweetInputPhoto} alt="input photo"/>
+            <img width="15%" style={{ marginRight: '10px' }} src={tweetInputPhoto} alt="input profile"/>
             <Form.Control
               type="search"
               placeholder="What's Happening?"
